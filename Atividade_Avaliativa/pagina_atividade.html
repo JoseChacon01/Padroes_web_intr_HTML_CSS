@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade</title>
+
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+
+<style type="text/css">
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 0.1cm;
+    padding-top: 40px;
+}
+
+</style>
+
+    </head>
+    <body>
+        <div class="corpo">
+           <h1>Atividade</h1><br/>
+
+           <form action="resposta.php" method="GET">
+       
+           <p>
+               <label for="atividade">1- Digite a sintaxe do HTML.</label><br/>
+               <textarea name="atividade"  id="atividade" required> </textarea>
+           </p>
+        
+           <p>2- Qual tag é responsavel por realizar a quebra de linha?<br/>
+            <input type="radio" name="quebra" value="img" id="img"/>
+            <label for="img">< img ></label><br/>
+
+            <input type="radio" name="quebra" value="h1" id="h1"/>
+            <label for="h1">< h1 ></label><br/>
+
+           <input type="radio" name="quebra" value="br" id="quebra"/>
+            <label for="quebra">< br ></label><br/>
+
+            <input type="radio" name="quebra" value="P" id="para"/>
+            <label for="para">< P ></label>
+            </p>
+
+            <p>3- Qual propriedade CSS muda o estilo da fonte?<br/>
+                <input type="radio" name="estilo" value="word-spacing" id="espaco"/>
+                 <label for="espaco">word-spacing</label><br/>
+
+                <input type="radio" name="estilo" value="font-family" id="muda"/>
+                 <label for="muda">font-family</label><br/>
+
+                 <input type="radio" name="estilo" value="text indent" id="texto"/>
+                 <label for="texto">text-indent</label><br/>
+     
+                 <input type="radio" name="estilo" value="font-style" id="altera"/>
+                 <label for="altera">font-style</label>
+            </p>
+
+                 <p>4- Qual propriedade CSS permite adicionar o espaçamento entre as letras?<br/>
+                    <input type="radio" name="espacamento" value="word-spacing" id="espacamento"/>
+                     <label for="espacamento">word-spacing</label><br/>
+
+                     <input type="radio" name="espacamento" value="word-spacing" id="letras"/>
+                     <label for="letras">letter-spacing</label><br/>
+
+                     <input type="radio" name="espacamento" value="text-indent" id="text"/>
+                     <label for="text">text-indent</label><br/>
+         
+                     <input type="radio" name="espacamento" value="color" id="cor"/>
+                     <label for="cor">color</label>
+                 </p>
+
+                     <input type="submit" value="Enviar"/>
+        </form>
+
+        <p><a href="pagina_inic.html">VOLTAR</a></p>
+    </div>
+    </body> l
+</html>

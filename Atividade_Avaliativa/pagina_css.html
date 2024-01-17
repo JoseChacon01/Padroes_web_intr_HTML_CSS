@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Conha um pouco sobre CSS</title>
+
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+
+<style type="text/css">
+ 
+h2, h3, h4, h5, h6
+{
+    letter-spacing: 0.1cm;
+    text-decoration: underline;
+}
+
+ul
+{
+    padding-left: 630px;
+    padding-top: 70px;
+}
+</style>
+</head>
+
+<body>
+    <h1>CSS</h1>
+
+    <ul>
+<li> <a href="#css">O que é CSS? </a></li>
+
+<li> <a href="#sintaxe">Sintaxe </a></li>
+
+<li> <a href="#organizacao">Como Organizar</a></li>
+
+<li> <a href="#interno">CSS Interno</a></li>
+
+<li> <a href="#externo">CSS Externo</a></li>
+
+<li> <a href="#mudar">Tipo da Fonte</a></li>
+
+<li> <a href="#estilo">Estilo da Fonte</a></li>
+
+<li> <a href="#recuo">Recuo do Texto</a></li>
+
+<li> <a href="#spalavras">Espaçamento Entre Palavras</a></li>
+
+<li> <a href="#sletras">Espaçamento Entre Letras</a></li>
+
+<li> <a href="#alinhar">Alinhamento de Texto</a></li>
+
+<li> <a href="#tamanho">Tamanho da Fonte</a></li>
+
+<li> <a href="#cor">Cor do Texto</a></li>
+
+<li> <a href="#variant">Propriedade Variant</a></li>
+
+<li> <a href="#negrito">Texto em Negrito</a></li><br/>
+
+<li><a href="pagina_inic.html">VOLTAR</a></li>
+ </ul>
+ 
+
+<div class="corpo">
+
+    <div id="css">
+        <h3>O que é CSS?</h3>
+        <p> Cascading Style Sheets é um mecanismo para adicionar estilo a um <br/>documento web. O código CSS pode ser aplicado diretamente nas tags <br/>"style" ou em vez de colocar a formatação dentro do documento, criar <br/>um link para um arquivo CSS que contém os estilos.</p> 
+    </div>
+    <br/>
+
+    <div id="sintaxe">
+        <h3>Sintaxe</h3>
+        <p> Na sintaxe de uma regra CSS, escreve-se o seletor e a seguir a propriedade<br/> e o valor separados por dois pontos e colocados entre chaves { }. <br> Entenda melhor através das imagens a seguir:</p> 
+        <img src="imagens_pg_css/img_sintaxe_1.png" alt="imagem que apresenta a sintaxe do codigo CSS." width="400px"/><br/>
+        <img src="imagens_pg_css/img_sintaxe_2.png" alt="Segunda imagem que apresenta a sintaxe do codigo CSS." width="400px"/><br/>
+
+        <p>Observações:</p>
+        <img src="imagens_pg_css/img_obs_css.png" alt="Imagem que contem bservações sobre a sintaxe do codigo CSS. Se o valor tem varias palavras, deve-se colocar aspas em volta e para especificar mais de uma propriedade deve-se separar por ponto e virgula." width="400px"/><br/>
+    </div>
+    <br/>
+
+    <div id="organizacao">
+        <h3>Como Organizar</h3>
+        <p>Para que as definições de estilo sejam mais legíveis, <br/> pode-se descrever uma propriedade em cada linha. <br/> Veja o exemplo a seguir:</p>
+        <img src="imagens_pg_css/img_org1_css.png" alt="imagem que apresenta como organizar o codigo CSS." width="400px"/>
+    </div>
+    <br/>
+
+<div id="interno">
+        <h3>CSS Interno</h3>
+        <p>É comumente utilizado quando um documento tem um estilo único.<br/> O estilo interno deve-se ser definido dentro da seção header da <br/>página HTML e deve-se utilizar a tag "style", veja o exemplo:</p>
+        <img src="imagens_pg_css/img_orgn_css.png" alt="imagem que apresenta como utilizar o CSS interno." width="400px"/>
+    </div>
+    <br/>
+
+    <div id="externo">
+        <h3>CSS Externo</h3>
+        <p>Ideal quando o estilo é aplicado a muitas páginas, com ele você pode<br/> mudar a aparência de um site inteiro mudando somente um arquivo.<br/> veja como utiliza-lo nas imagens a seguir:</p>
+        <img src="imagens_pg_css/img_ex_css.png" alt="imagem apresenta como criar o CSS externo." width="400px"/><br/>
+        <img src="imagens_pg_css/img_css_ext_lk.png" alt="imagem apresenta como inserir o CSS externo em um documento." width="400px"/>
+   </div>
+    <br/>
+
+    <div id="mudar">
+        <h3>Tipo da Fonte</h3>
+        <p>Define o tipo de fonte que vai ser utilizado (ou uma lista de tipos de fontes), <br/>caso a fonte selecionada possua espaço entre as palavras,<br/> é necessario coloca-la entre aspas, confira o exemplo a baixo:</p>
+        <img src="imagens_pg_css/img_tip_font.png" alt="imagem apresenta um exemplo de como mudar a fonte de uma palavra ou texto em CSS." width="400px"/>
+    </div>
+    <br/>
+
+    <div id="estilo">
+        <h3>Estilo da Fonte</h3>
+        <p>Os estilos da fonte podem ser: normal, italic ou oblique. Veja no exemplo, <br/> onde foi utilizado o italic para estilizar o título se seção de nivel 2: </p>
+        <img src="imagens_pg_css/img_style.png" alt="imagem apresenta um exemplo de como estilizar o texto em CSS." width="400px"/>
+    </div>
+    <br/>
+
+    <div id="recuo">
+        <h3>Recuo do Texto</h3>
+        <p>Esta propriedade destina-se a definir um espaçamento horizontal a ser<br/> deixado antes do início da primeira linha do texto. <br/>Você irá definir qual será o tamanho do recuo em px, veja o exemplo: </p>
+        <img src="imagens_pg_css/img_recuo.png" alt="imagem apresenta um exemplo de como utilizar o recuo de texto em CSS." width="400px"/>
+    </div>
+     <br/>
+
+     <div id="spalavras">
+        <h3>Espaçamento Entre Palavras</h3>
+        <p> Medidas Possíveis: pt, px, cm, mm, in, em.<br/> Exemplo: </p>
+        <img src="imagens_pg_css/img_esp_palavras.png" alt="imagem apresenta um exemplo de como utilizar o espaçamento entre palavras em CSS." width="400px"/>
+    </div>
+     <br/>
+
+     <div id="sletras">
+        <h3>Espaçamento Entre Letras</h3>
+        <p> Esta propriedade controla o espaçamento entre as letras da palavra e <br/>possuem as mesmas medidas do item anterior.<br/> Exemplo: </p>
+        <img src="imagens_pg_css/img_esp_letras.png" alt="imagem apresenta um exemplo de como utilizar o espaçamento entre letras em CSS." width="400px"/>
+    </div>
+     <br/>
+
+     <div id="alinhar">
+        <h3>Alinhamento de Texto</h3>
+        <p>  Pode ser: left, right, center ou justify.<br/> Exemplo: </p>
+        <img src="imagens_pg_css/img_align.png" alt="imagem apresenta um exemplo de como alinhar um texto em CSS." width="400px"/>
+    </div>
+     <br/>
+
+     <div id="tamanho">
+        <h3>Tamanho da Fonte</h3>
+        <p>Com esta propriedade você pode controlar o tamanho das fontes.<br/> Veja o exemplo: </p>
+        <img src="imagens_pg_css/img_tamanho_f.png" alt="imagem apresenta um exemplo de como controlar o tamanho da fonte de um texto ou palavra em CSS." width="400px"/>
+    </div>
+     <br/>
+        
+     <div id="cor">
+        <h3>Cor do Texto</h3>
+        <p>Com esta propriedade você pode difinir as cores do texto.<br/> Veja o exemplo: </p>
+        <img src="imagens_pg_css/img_color.png" alt="imagem apresenta um exemplo de como definir a cor do texto em CSS." width="400px"/>
+    </div>
+     <br/>
+
+     <div id="variant">
+        <h3>Propriedade Variant</h3>
+        <p>Á Propiedade Variante é usada para escolher as variantes normal (padrão)<br> ou small-caps (transforma em maiúsculas de menor altura.).<br/> Veja o exemplo: </p>
+        <img src="imagens_pg_css/img_variant.png" alt="imagem apresenta um exemplo de como definir a cor do texto em CSS." width="400px"/>
+    </div>
+     <br/>
+
+     <div id="negrito">
+        <h3>Texto em Negrito</h3>
+        <p>Esta propriedade define quanto mais escura a fonte é (negrito).<br/> Valores possiveis: bold; bolder; lighter; 100; 200; 300; 400; <br/>500; 600; 700; 800; 900.</p>
+        <img src="imagens_pg_css/img_negrito.png" alt="imagem apresenta um exemplo de como deixar texto em negrito no CSS." width="400px"/>
+    </div>
+        
+
+</div>
+</body>
+</html>

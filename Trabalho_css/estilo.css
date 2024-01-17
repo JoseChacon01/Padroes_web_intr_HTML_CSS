@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body
+{
+    font-family: Arial;
+    background-image: url('imagem_gg.jpg');
+    background-attachment: fixed;
+}
+
+h1, h3
+{
+    text-align: center;
+    color: rgb(3, 77, 3);
+}
+
+table
+{
+    border-style: dotted;
+}
+
+ul
+{
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+p.justbranc
+{
+    text-align: justify;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: brown;
+}

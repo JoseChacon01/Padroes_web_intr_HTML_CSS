@@ -1,0 +1,41 @@
+body
+{
+    background-image: url("imagem_fundo.png");
+    background-size: 1350px;
+    background-attachment: fixed;
+}
+
+ul li 
+{
+    color:rgb(209, 209, 32);
+}
+
+.corpo
+{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Helvetica;
+    color: rgb(209, 209, 32);
+    text-align: center;
+}
+
+a:hover
+{
+    color: white;
+}
+
+a:link
+{
+    color: rgb(209, 209, 32);
+}
+
+a
+{
+    text-decoration: none;
+}
+
